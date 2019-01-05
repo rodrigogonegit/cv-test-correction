@@ -205,8 +205,8 @@ int main(int argc, char** argv)
     printImageFeatures(sudoku);	
 	Mat outerBox = Mat(sudoku.size(), CV_8UC1);
 	Mat outerBoxGauss;
-    // findMainGrid(sudoku);
-    findContainer(sudoku);
+    findMainGrid(sudoku);
+    // findContainer(sudoku);
 
 	// showImg("Original", sudoku);
 
